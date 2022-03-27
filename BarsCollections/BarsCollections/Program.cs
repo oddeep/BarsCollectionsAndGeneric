@@ -11,14 +11,14 @@ namespace BarsCollections
     }
     static class Test
     {
-        static public Dictionary<int, List<Entity>> Work(List<Entity> entities)
+        static public Dictionary<int, List<T>> Work<T>(List<T> entities) where T:Entity
         {
-            var dict = new Dictionary<int, List<Entity>>();
-            foreach (Entity ent in entities)
+            var dict = new Dictionary<int, List<T>>();
+            foreach (T ent in entities)
             {
                 if (!(dict.ContainsKey(ent.ParentId)))
                 {
-                    dict.Add(ent.ParentId, new List<Entity> { ent });
+                    dict.Add(ent.ParentId, new List<T> { ent });
                 }
                 else
                 {
@@ -40,7 +40,7 @@ namespace BarsCollections
                 new Entity { Id = 5, ParentId = 4, Name = "Child of 4 entity"} 
             };
 
-            var Diction = Test.Work(MyList);
+            var Diction = Test.Work<Entity>(MyList);
 
             //Печать элементов полученного словаря
             foreach(var dict in Diction)

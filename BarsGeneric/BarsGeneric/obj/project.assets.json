@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Users\\odmin\\Desktop\\BarsCollectionsAndGeneric\\BarsGeneric\\BarsGeneric\\BarsGeneric.csproj",
+      "projectUniqueName": "C:\\C#\\BarsCollectionsAndGeneric\\BarsGeneric\\BarsGeneric\\BarsGeneric.csproj",
       "projectName": "BarsGeneric",
-      "projectPath": "H:\\Users\\odmin\\Desktop\\BarsCollectionsAndGeneric\\BarsGeneric\\BarsGeneric\\BarsGeneric.csproj",
+      "projectPath": "C:\\C#\\BarsCollectionsAndGeneric\\BarsGeneric\\BarsGeneric\\BarsGeneric.csproj",
       "packagesPath": "C:\\Users\\odmin\\.nuget\\packages\\",
-      "outputPath": "H:\\Users\\odmin\\Desktop\\BarsCollectionsAndGeneric\\BarsGeneric\\BarsGeneric\\obj\\",
+      "outputPath": "C:\\C#\\BarsCollectionsAndGeneric\\BarsGeneric\\BarsGeneric\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
